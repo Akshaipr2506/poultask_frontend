@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { FaPlus } from 'react-icons/fa'
 
+function Ui() {
 
-function Table() {
     const [rows, setRows] = useState([{ id: 1 }]);
 
     const addRow = () => {
@@ -152,4 +152,4 @@ function Table() {
     )
 }
 
-export default Table
+export default Ui

@@ -2,7 +2,9 @@
 import './App.css'
 import Canvas from './components/Canvas'
 import Excel from './components/Excel'
-import Table from './components/table'
+
+import Ui from './components/Ui'
+
 import Xlsxparser from './components/Xlsxparser'
 
 function App() {
@@ -10,7 +12,8 @@ function App() {
 
   return (
     <>
-    <Table></Table>
+    <Ui></Ui>
+    
     <Canvas></Canvas>
     <Xlsxparser></Xlsxparser>
     <Excel></Excel>
